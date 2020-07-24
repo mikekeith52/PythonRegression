@@ -1,0 +1,33 @@
+digraph Tree {
+node [shape=box, style="rounded", color="black", fontname=helvetica] ;
+edge [fontname=helvetica] ;
+0 [label="median_home_value <= 0.8\nmse = 18015601.7\nsamples = 3514\nvalue = 42125.4"] ;
+1 [label="log_population <= 0.5\nmse = 8823207.5\nsamples = 2935\nvalue = 43418.3"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="median_home_value_sq <= -0.1\nmse = 7143383.9\nsamples = 2110\nvalue = 42657.2"] ;
+1 -> 2 ;
+3 [label="mse = 6238555.7\nsamples = 1727\nvalue = 43114.2"] ;
+2 -> 3 ;
+4 [label="mse = 5860885.1\nsamples = 383\nvalue = 40531.3"] ;
+2 -> 4 ;
+5 [label="log_population <= 1.9\nmse = 7868606.9\nsamples = 825\nvalue = 45356.6"] ;
+1 -> 5 ;
+6 [label="mse = 6354925.1\nsamples = 699\nvalue = 44845.7"] ;
+5 -> 6 ;
+7 [label="mse = 6769224.4\nsamples = 126\nvalue = 48195.9"] ;
+5 -> 7 ;
+8 [label="median_home_value_sq <= 2.1\nmse = 14798725.6\nsamples = 579\nvalue = 35800.1"] ;
+0 -> 8 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+9 [label="log_population <= 0.3\nmse = 6897568.3\nsamples = 386\nvalue = 37882.2"] ;
+8 -> 9 ;
+10 [label="mse = 4949885.8\nsamples = 288\nvalue = 37127.5"] ;
+9 -> 10 ;
+11 [label="mse = 6032097.3\nsamples = 98\nvalue = 40098.6"] ;
+9 -> 11 ;
+12 [label="median_home_value <= 2.4\nmse = 5666958.8\nsamples = 193\nvalue = 31802.9"] ;
+8 -> 12 ;
+13 [label="mse = 4949471.3\nsamples = 26\nvalue = 34180.7"] ;
+12 -> 13 ;
+14 [label="mse = 4751672.1\nsamples = 167\nvalue = 31429.3"] ;
+12 -> 14 ;
+}
