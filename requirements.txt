@@ -1,4 +1,3 @@
 eli5
 tqdm
 pydot
-itertools

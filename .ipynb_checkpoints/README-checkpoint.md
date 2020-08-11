@@ -23,3 +23,10 @@ This is the notebook used in the Apress published video.
 - county_id: the unique identifier of the county in which the store is operating
 
 * Note this data is entirely fictional and was simulated using the [Boston housing dataset](https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html#:~:text=The%20Boston%20Housing%20Dataset,the%20area%20of%20Boston%20Mass.&text=It%20was%20obtained%20from%20the,the%20literature%20to%20benchmark%20algorithms.).
+
+## Installation (Windows specific)
+- Download [Anaconda](https://www.anaconda.com/products/individual) and install in PATH
+- Install required libraries
+  - Run the following commands in command prompt:
+    1. `cd path/to/this/directory`
+    2. `pip install -r requirements.txt`
