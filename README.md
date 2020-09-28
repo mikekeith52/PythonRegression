@@ -1,6 +1,6 @@
 # Machine Learning with Regression in Python
 
-This is the notebook used in the Apress published video.
+This is the notebook used in the Apress/SpringerLink published video.
 
 ## Business problem
 1. We work for a fast-food restaurant that is looking to expand its business to new areas.
